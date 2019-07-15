@@ -1,0 +1,54 @@
+
+
+
+#calendar_container {
+    padding: 10px;
+    width:340px;
+    height:300px;
+    border:1px solid;
+    font-family: Arial;
+    background-color: dimgrey;
+    color: white;
+}
+
+#calendar_container>div{
+    padding:0;
+    margin-bottom: 10px;
+    
+}
+
+
+
+#calendar_month_year{
+    margin 10px;
+}
+
+
+#calendar_dates>table>tr>td{
+    padding: 10px;
+}
+
+#calendar_month_year {
+    text-align: center;
+}
+
+span.a {
+    display: inline-block;
+}
+
+#previous {
+    background-image: "previous.png";
+}
+
+#next {
+    background-image: "next.png";
+}
+
+i:hover{
+    cursor: pointer;
+}
+
+td:hover{
+    border-color: black;
+    cursor: pointer;
+}
